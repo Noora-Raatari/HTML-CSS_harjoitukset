@@ -1,0 +1,72 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  font-family: "Oxanium", sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #264237;
+}
+
+.active {
+  background-color: #264237;
+}
+
+
+.p1{
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+.header {
+  width: 70%;
+  margin:auto;
+  padding-top: 2%;
+  background-color: red;
+
+#deeprock {
+  background-color: aqua;
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
+    font-size:5vw;
+    margin: auto;
+  }
+#together {
+  background-color: bisque;
+text-align: center;
+font-family: "Manrope", sans-serif;
+font: size 1.5vw;
+margin-top: 0%;
+
+}
+
+}
+img.headerpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+  
+}
+
+.about{
+  width: 60%;
+  margin:auto;
+  margin-top: 1%;
+  background-color: red;
+
+}
