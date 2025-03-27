@@ -144,7 +144,7 @@ h3.team {
   
   
 .introduction{
-  height:330px;
+  height: calc(article.team_member + 20px);
   font-family: "Manrope", sans-serif;
   margin: 5%;
   padding: 8%;
@@ -187,4 +187,29 @@ article.team_member{
 }
 .dwarf04{
   background-image: url(gunner01.PNG);
+}
+
+section.contact{
+  width: 70%;
+  background-color: #264237;
+  flex-wrap: wrap;
+  margin:auto;
+  display: flex;
+}
+
+h2.contact{
+  font-family: "Oxanium", sans-serif;
+  color: antiquewhite;
+  width: 100%;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+figure.contact{
+
+}
+
+p.contact01{
+  font-family: "Manrope", sans-serif;
+  padding:15px;
 }
