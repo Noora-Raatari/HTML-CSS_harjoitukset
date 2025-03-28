@@ -3,6 +3,9 @@
   margin:0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-image: url("background02.jpg");
   background-repeat: repeat;
@@ -11,7 +14,7 @@ body {
   position: sticky;
   top: 0;
   display: flex;
-  background-color:#264237;
+  background-color: #2c2c2c;
   height: 3rem;
   width: 100%;
   overflow:hidden;
@@ -24,7 +27,6 @@ header{
   
 }
 .container{
-  float:top;
   width: 70%;
   margin: auto;
 }
@@ -57,12 +59,13 @@ ul {
 
 li a {
   font-family: "Oxanium", sans-serif;
-  background-color: #264237;
-  color: #202020;
+  background-color: #2c2c2c;
+  color: antiquewhite;
   width: 10rem;
   display:block;
   text-align: center;
   line-height: 3rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -79,9 +82,7 @@ li a:hover:not(.active) {
   width: 70%;
   margin:auto;
 }
-.p1{
-  font-family: "Manrope", sans-serif;
-}
+
 
 
 
@@ -89,24 +90,24 @@ li a:hover:not(.active) {
   width: 100%;
   margin: auto;
   display: block;
-  padding-top: 7%;
+  padding-top: 4%;
   padding-bottom: 5%;
 }
 #deeprock {
   background-color: rgba(255, 228, 196, 0);
-text-align: center;
-font-family: "Oxanium", sans-serif;
-font-size: 5vw;
-margin-top: 5%;
+  text-align: center;
+  font-family: "Oxanium", sans-serif;
+  font-size: 5vw;
+  margin-top: 2%;
   color: antiquewhite;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   }
 #together {
-  background-color: rgba(255, 228, 196, 0);
 text-align: center;
 font-family: "Manrope", sans-serif;
-font: size 1.5vw;
-margin-top: 0%;
+font-size: 1.5vw;
+margin-top: 0;
   color: antiquewhite;
 
 }
@@ -130,19 +131,27 @@ img.titlepic {
 }
 
 .operation{
-  width: 60%;
-  margin:auto;
-  margin-top: 1%;
-  background-color: rgba(255, 0, 0, 0);
+  width: 100%;
+  background-color: #264237FF;
   text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 #operation {
-  background-color: rgba(255, 228, 196, 0);
+  color: antiquewhite;
   text-align: center;
   font-family: "Oxanium", sans-serif;
-  font: size 1.5vw;
-  margin-top: 0%;
+  font-size:2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width:100%;
+}
+.p1{
+  font-family: "Manrope", sans-serif;
+  color: antiquewhite;
+  text-align: justify;
+  text-justify: inter-word;
 }
 img.teampic {
   display: block;
@@ -156,9 +165,10 @@ img.teampic {
 width:70%;
 display: flex;
 flex-wrap: wrap;
-background-color: #202020;
-margin:auto;
-margin-top:2%;
+background-color: #2c2c2c;
+margin-top: 2rem;
+  margin-left:auto;
+  margin-right:auto;
 padding-bottom: 2%;
 box-sizing: border-box;
 
@@ -166,8 +176,8 @@ box-sizing: border-box;
 #team{
   font-family: "Oxanium", sans-serif;
   color: antiquewhite;
-  margin: auto;
-  font-size: 4vw;
+  margin:auto;
+  font-size: 3rem;
   padding-top: 2%;
 }
 
@@ -178,7 +188,7 @@ h3.team {
   padding: 10px;
   font-size: 2rem;
 }
-  .p2 {
+  .p2{
     color: #faebd7;
     font-family: "Manrope", sans-serif;
       width:100%;
@@ -187,7 +197,6 @@ h3.team {
   
   
 .introduction{
-  height: calc(article team_member + 20px);
   font-family: "Manrope", sans-serif;
   margin: 5%;
   padding: 8%;
@@ -199,7 +208,6 @@ section.team_container{
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
   width:100%
 }
 
@@ -232,24 +240,61 @@ article.team_member{
   background-image: url(gunner01.PNG);
 }
 
-section.contact{
-  width: 70%;
-  background-color: #264237;
-  flex-wrap: wrap;
-  margin:auto;
+.contact_container{
   display: flex;
+  margin-top: 3rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+section.contact{
+  width: 100%;
+  background-color: #264237;
+  margin:auto;
+  margin-bottom: 2rem;
+
+}
+
 
 #contact{
   font-family: "Oxanium", sans-serif;
   color: antiquewhite;
-  width: 100%;
-  padding: 10px;
-  font-size: 2rem;
+  margin:1rem;
+  font-size: 3rem;
 }
-
 
 p.contact01{
   font-family: "Manrope", sans-serif;
   padding:15px;
+  color: antiquewhite;
+}
+
+figure.contact{
+  float:right;
+  margin:1rem;
+  margin-bottom: 3rem;
+
+}
+.responsive{
+  height:auto;
+  width:100%;
+}
+figcaption{
+  margin-bottom: 2rem;
+  font-family: "Manrope", sans-serif;
+  color: antiquewhite;
+}
+footer {
+  background-color: #2c2c2c;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height:3rem;
+}
+footer a {
+  font-family: Manrope, sans-serif;
+  text-decoration: none;
+  color:antiquewhite;
+  font-size: 1rem;
 }
