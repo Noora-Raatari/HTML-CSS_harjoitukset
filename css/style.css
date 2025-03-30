@@ -7,7 +7,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("/images/background02.JPG");
+  background-image: url("images/background02.JPG");
   background-repeat: repeat;
 }
 .topmenu_container{
@@ -227,17 +227,17 @@ article.team_member{
 }
 
 .dwarf01{
-  background-image: url(/images/scout01.png);
+  background-image: url(images/scout01.png);
 }
 
 .dwarf02{
-  background-image: url(/images/engineer01.png);
+  background-image: url(images/engineer01.png);
 }
 .dwarf03{
-  background-image: url(/images/driller01.png);
+  background-image: url(images/driller01.png);
 }
 .dwarf04{
-  background-image: url(/images/gunner01.PNG);
+  background-image: url(images/gunner01.PNG);
 }
 
 .contact_container{
