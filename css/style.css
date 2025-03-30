@@ -227,17 +227,17 @@ article.team_member{
 }
 
 .dwarf01{
-  background-image: url(scout01.PNG);
+  background-image: url(/images/scout01.png);
 }
 
 .dwarf02{
-  background-image: url(engineer01.PNG);
+  background-image: url(/images/engineer01.png);
 }
 .dwarf03{
-  background-image: url(driller01.PNG);
+  background-image: url(/images/driller01.png);
 }
 .dwarf04{
-  background-image: url(gunner01.PNG);
+  background-image: url(/images/gunner01.PNG);
 }
 
 .contact_container{
