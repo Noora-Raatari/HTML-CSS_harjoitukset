@@ -7,7 +7,8 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("images/background02.JPG");
+  background-image: url(../images/background02.JPG);
+  background-color: #264237;
   background-repeat: repeat;
 }
 .topmenu_container{
@@ -150,7 +151,6 @@ img.titlepic {
 .p1{
   font-family: "Manrope", sans-serif;
   color: antiquewhite;
-  text-align: justify;
   text-justify: inter-word;
 }
 img.teampic {
@@ -227,17 +227,17 @@ article.team_member{
 }
 
 .dwarf01{
-  background-image: url(images/scout01.png);
+  background-image: url("../images/scout01.webp");
 }
 
 .dwarf02{
-  background-image: url(images/engineer01.png);
+  background-image: url("../images/engineer01.webp");
 }
 .dwarf03{
-  background-image: url(images/driller01.png);
+  background-image: url("../images/driller01.webp");
 }
 .dwarf04{
-  background-image: url(images/gunner01.PNG);
+  background-image: url("../images/gunner01.webp");
 }
 
 .contact_container{
